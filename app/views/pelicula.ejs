@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+     <head>
+     <title>Practica DSI: Modelo Vista Controlador</title>
+     </head>
+
+     <body>
+         <h1>Base de Datos de Películas</h1>
+         <form method="post" action="/pelicula">
+             <label>Los datos en la bbdd</label><br>
+             <input type="text" name="nombre" id="nombre" placeholder="Introduzca nombre" required>
+             <input type="text" name="director" id="director" placeholder="Introduzca director" required>
+             <input type="text" name="genero" id="genero" placeholder="Introduzca genero" required>
+             <input type="text" name="puntuacion" id="puntuacion" placeholder="Introduzca puntuacion" required>
+             <input type="text" name="estreno" id="estreno" placeholder="Introduzca estreno" required>
+             <input type="text" name="duracion" id="duracion" placeholder="Introduzca duracion" required>
+             <input type="submit" value="Add Name">
+         </form>
+         <h2> Peliculas: </h2>
+         <ul>
+         <%for (var i=0; i<peliculas.length; i++) {%>
+               <li><%=peliculas[i].nombre%> : <%=peliculas[i].director%></li>
+         <% } %>
+         <ul>
+     </body>
+</html>
+
