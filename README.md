@@ -10,3 +10,6 @@ Para esta práctica será necesario la cumplimentación de una serie de objetivo
     4. Determinar los atributos básicos de nuestra aplicación
     5. En base a todo lo anterior definir el estilo arquitectónico
 * Implementar la funcionalidad básica de nuestra aplicación en base a la arquitectura elegida (usar el sistema de control de versiones para el desarrollo).
+
+# Prototipo de aplicación MVC
+![captura](https://github.com/DarwinGonzalez/PracticaArqSoftDSI/blob/master/public/img/prototipo.png?raw=true)
