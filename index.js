@@ -10,11 +10,12 @@ import mongoose   from 'mongoose'
 
 const app = express()
 
+
 mongoose.connect('mongodb://localhost/pelicula')
 
 app.set('views', path.join(__dirname, '/app/views'))
 app.set('view engine', 'ejs')
-app.set('port', (process.env.PORT || 4000))
+app.set('port', (process.env.PORT || 3000))
 
 app.use(cookie())
 app.use(session({secret: 'dsi', resave: true, saveUninitialized: true }))
@@ -24,6 +25,7 @@ app.use(express.static(path.join(__dirname + "/public")))
 
 
 app.use('/', api)
+
 
 app.listen(3000)
 

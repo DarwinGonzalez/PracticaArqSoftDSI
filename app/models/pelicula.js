@@ -7,7 +7,7 @@ const Pelicula = new Schema({
     director: 	{ type: String },
     genero: 	{ type: String },
     puntuacion: { type: Number},
-    estreno:    { type: Date},
+    estreno:    { type: String},
     duracion:   {type: Number}
 
 });
