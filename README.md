@@ -18,12 +18,12 @@ Para esta práctica será necesario la cumplimentación de una serie de objetivo
 
 Determinar el tipo de aplicación:
 * El tipo de aplicación que se ha elegido para el proyecto es una aplicación en la cual el usuario pueda introducir su película favorita (con una serie de campos relacionados con la película)
-  y esta será guardada en una base de datos y mostrada en una tabla en la plataforma para que cualquier otra persona pueda visualizar estas peliculas, y en base a las puntuaciones 
-  ver o no la pelicula si le apetece.
+  y esta será guardada en una base de datos y mostrada en una tabla en la plataforma para que cualquier otra persona pueda visualizar estas películas, y en base a las puntuaciones 
+  ver o no la película si le apetece.
 
 Determinar la infraestructura y estrategia de despliegue
 * La infraestructura utilizada en principio sería un servidor simple, donde tendríamos guardada tanto la base de datos como el código fuente del proyecto, siendo 
-  desplegada en la dircción IP de este servidor. Para las pruebas que se han realizado se ha utilizado el un portáti como servidor local que aloja tanto el código como el servidor 
+  desplegada en la dirección IP de este servidor. Para las pruebas que se han realizado se ha utilizado el un portátil como servidor local que aloja tanto el código como el servidor 
   de MongoDB donde se guardan los datos relacionados con las películas.
 
 Determinar las tecnologías a usar
@@ -37,4 +37,16 @@ Determinar las tecnologías a usar
 ![css](https://github.com/DarwinGonzalez/PracticaArqSoftDSI/blob/master/public/img/CSS.3.svg.png?raw=true)
 
 
+Determinar los atributos básicos de nuestra aplicación
+En cuanto a los diferentes atributos con los que cuenta nuestra aplicación hay varios:
+* En primer lugar tenemos la parte del servidor, que es la encargada de atender toda la serie de peticiones que se han al servicio, y como no de levantar el servicio en el puerto indicado. Además de esto el servidor
+  es el encargado de cargar las vistas (elemento que ahora nombraremos con más detalle). 
+* Por otra parte tenemos nuestra aplicación en el directorio /app y dentro de la misma otros tres subdirectorios que contienen los controladores que son los encargados de determinar las funciones que se podrán hacer,
+  las vistas que son las encargadas de cargar el contenido multimedia que ve el usuario y por último los modelos que son las
+  diferentes estructuras de datos utilizadas para trabajar o almacenar datos.
+* Contamos además con un directorio /config en el cual se guardan las diferentes rutas y las acciones que se determinan para cada una de ellas.
 
+En base a todo lo anterior definir el estilo arquitectónico
+* En base a lo comentado en todo lo anterior podemos determinar que nuestra aplicación se trata de una aplicación con una arquitectura de modelo vista controlador, también
+  conocida comúnmente como MVC. Esto se puede determinar debido a que en una fase previa al diseño se ha hecho una distribución de directorios orientada a cumplir con este modelo de 
+  arquitectura tan conocido. En el tenemos diferenciadas estas tres partes cada una con su función determinada.
