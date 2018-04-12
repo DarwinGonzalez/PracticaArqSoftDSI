@@ -30,12 +30,15 @@ Determinar las tecnologías a usar
 * Las tecnologías utilizadas han sido principalmente JavaScript, HTML, CSS y MongoDB. Se ha utilizado Nodejs para toda la parte del back-end relacionada con el servirdor, las tareas realizadas en la base de datos 
   y se ha utilizado una plantilla de Bootstrap para la parte de las vistas o página principal donde se muestra el contenido de la plataforma web.
 
-![node](https://github.com/DarwinGonzalez/PracticaArqSoftDSI/blob/master/public/img/1200px-Node.js_logo.svg.png?raw=true)
-![mongo](https://github.com/DarwinGonzalez/PracticaArqSoftDSI/blob/master/public/img/mongodb.png?raw=true)
-![js](https://github.com/DarwinGonzalez/PracticaArqSoftDSI/blob/master/public/img/js-logo.png?raw=true)
-![html](https://github.com/DarwinGonzalez/PracticaArqSoftDSI/blob/master/public/img/images.png?raw=true)
-![css](https://github.com/DarwinGonzalez/PracticaArqSoftDSI/blob/master/public/img/CSS.3.svg.png?raw=true)
-
+<p align="center">
+ 
+<img src="https://github.com/DarwinGonzalez/PracticaArqSoftDSI/blob/master/public/img/1200px-Node.js_logo.svg.png?raw=true">
+<img src="https://github.com/DarwinGonzalez/PracticaArqSoftDSI/blob/master/public/img/mongodb.png?raw=true">
+<img src="https://github.com/DarwinGonzalez/PracticaArqSoftDSI/blob/master/public/img/js-logo.png?raw=true">
+<img src="https://github.com/DarwinGonzalez/PracticaArqSoftDSI/blob/master/public/img/images.png?raw=true">
+<img src="https://github.com/DarwinGonzalez/PracticaArqSoftDSI/blob/master/public/img/CSS.3.svg.png?raw=true">
+ 
+</p>
 
 Determinar los atributos básicos de nuestra aplicación
 En cuanto a los diferentes atributos con los que cuenta nuestra aplicación hay varios:
