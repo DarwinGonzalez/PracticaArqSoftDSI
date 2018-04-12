@@ -50,3 +50,6 @@ En base a todo lo anterior definir el estilo arquitectónico
 * En base a lo comentado en todo lo anterior podemos determinar que nuestra aplicación se trata de una aplicación con una arquitectura de modelo vista controlador, también
   conocida comúnmente como MVC. Esto se puede determinar debido a que en una fase previa al diseño se ha hecho una distribución de directorios orientada a cumplir con este modelo de 
   arquitectura tan conocido. En el tenemos diferenciadas estas tres partes cada una con su función determinada.
+  
+Implementar la funcionalidad básica de nuestra aplicación en base a la arquitectura elegida (usar el sistema de control de versiones para el desarrollo).
+* Como podemos ver se ha creado un prototipo de aplicación con una serie de funcionalidades básicas tales como la introducción de valores en los atributos en la base de datos y la recuperación y lectura de los mismos en una tabla mostrada en la vista principal del proyecto. Serán añadidas proximamente funcionalidades como búsqueda mediante valores concretos de los atributos, eliminación de registros de la base de datos,...
