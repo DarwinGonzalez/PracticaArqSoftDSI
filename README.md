@@ -54,5 +54,25 @@ En base a todo lo anterior definir el estilo arquitectónico
   conocida comúnmente como MVC. Esto se puede determinar debido a que en una fase previa al diseño se ha hecho una distribución de directorios orientada a cumplir con este modelo de 
   arquitectura tan conocido. En el tenemos diferenciadas estas tres partes cada una con su función determinada.
   
+ ```
+.
+├── README.md
+├── app
+│   ├── controllers
+│   │   └── peliculaController.js
+│   ├── models
+│   │   └── pelicula.js
+│   └── views
+│       └── pelicula.ejs
+├── config
+│   └── routes.js
+├── index.js
+├── npm-debug.log
+├── package-lock.json
+├── package.json
+└── public
+```
+
 Implementar la funcionalidad básica de nuestra aplicación en base a la arquitectura elegida (usar el sistema de control de versiones para el desarrollo).
 * Como podemos ver se ha creado un prototipo de aplicación con una serie de funcionalidades básicas tales como la introducción de valores en los atributos en la base de datos y la recuperación y lectura de los mismos en una tabla mostrada en la vista principal del proyecto. Serán añadidas proximamente funcionalidades como búsqueda mediante valores concretos de los atributos, eliminación de registros de la base de datos,...
+
