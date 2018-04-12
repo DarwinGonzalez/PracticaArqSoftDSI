@@ -31,15 +31,10 @@ Determinar las tecnologías a usar
   y se ha utilizado una plantilla de Bootstrap para la parte de las vistas o página principal donde se muestra el contenido de la plataforma web.
 
 <center>
-    ![node](https://github.com/DarwinGonzalez/PracticaArqSoftDSI/blob/master/public/img/1200px-Node.js_logo.svg.png?raw=true)
-    
-    ![mongo](https://github.com/DarwinGonzalez/PracticaArqSoftDSI/blob/master/public/img/mongodb.png?raw=true)
-    
-    ![js](https://github.com/DarwinGonzalez/PracticaArqSoftDSI/blob/master/public/img/js-logo.png?raw=true)
-    
-    ![html](https://github.com/DarwinGonzalez/PracticaArqSoftDSI/blob/master/public/img/images.png?raw=true)
-    
-    ![css](https://github.com/DarwinGonzalez/PracticaArqSoftDSI/blob/master/public/img/CSS.3.svg.png?raw=true)
-    
+![node](https://github.com/DarwinGonzalez/PracticaArqSoftDSI/blob/master/public/img/1200px-Node.js_logo.svg.png?raw=true)
+![mongo](https://github.com/DarwinGonzalez/PracticaArqSoftDSI/blob/master/public/img/mongodb.png?raw=true)
+![js](https://github.com/DarwinGonzalez/PracticaArqSoftDSI/blob/master/public/img/js-logo.png?raw=true)
+![html](https://github.com/DarwinGonzalez/PracticaArqSoftDSI/blob/master/public/img/images.png?raw=true)
+![css](https://github.com/DarwinGonzalez/PracticaArqSoftDSI/blob/master/public/img/CSS.3.svg.png?raw=true)
 </center>
 
