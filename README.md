@@ -29,7 +29,8 @@ Determinar la infraestructura y estrategia de despliegue
 Determinar las tecnologías a usar
 * Las tecnologías utilizadas han sido principalmente JavaScript, HTML, CSS y MongoDB. Se ha utilizado Nodejs para toda la parte del back-end relacionada con el servirdor, las tareas realizadas en la base de datos 
   y se ha utilizado una plantilla de Bootstrap para la parte de las vistas o página principal donde se muestra el contenido de la plataforma web.
- <center>
+
+<center>
     ![node](https://github.com/DarwinGonzalez/PracticaArqSoftDSI/blob/master/public/img/1200px-Node.js_logo.svg.png?raw=true)
     ![mongo](https://github.com/DarwinGonzalez/PracticaArqSoftDSI/blob/master/public/img/mongodb.png?raw=true)
     ![js](https://github.com/DarwinGonzalez/PracticaArqSoftDSI/blob/master/public/img/js-logo.png?raw=true)
