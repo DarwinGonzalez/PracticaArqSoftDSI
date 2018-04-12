@@ -32,9 +32,14 @@ Determinar las tecnologías a usar
 
 <center>
     ![node](https://github.com/DarwinGonzalez/PracticaArqSoftDSI/blob/master/public/img/1200px-Node.js_logo.svg.png?raw=true)
+    
     ![mongo](https://github.com/DarwinGonzalez/PracticaArqSoftDSI/blob/master/public/img/mongodb.png?raw=true)
+    
     ![js](https://github.com/DarwinGonzalez/PracticaArqSoftDSI/blob/master/public/img/js-logo.png?raw=true)
+    
     ![html](https://github.com/DarwinGonzalez/PracticaArqSoftDSI/blob/master/public/img/images.png?raw=true)
+    
     ![css](https://github.com/DarwinGonzalez/PracticaArqSoftDSI/blob/master/public/img/CSS.3.svg.png?raw=true)
+    
 </center>
 
