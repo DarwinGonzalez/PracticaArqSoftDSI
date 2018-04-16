@@ -76,3 +76,18 @@ En base a todo lo anterior definir el estilo arquitectónico
 Implementar la funcionalidad básica de nuestra aplicación en base a la arquitectura elegida (usar el sistema de control de versiones para el desarrollo).
 * Como podemos ver se ha creado un prototipo de aplicación con una serie de funcionalidades básicas tales como la introducción de valores en los atributos en la base de datos y la recuperación y lectura de los mismos en una tabla mostrada en la vista principal del proyecto. Serán añadidas proximamente funcionalidades como búsqueda mediante valores concretos de los atributos, eliminación de registros de la base de datos,...
 
+
+# Despliegue del Prototipado
+
+Para el despliegue del proyecto es necesario ejecutar los siguientes comandos en la terminal. En primer lugar es necesario descargar el repositorio y posicionarnos dentro de la carpeta. Una vez ahí ejecutamos el siguiente comando para instalar los diferentes modulos y dependencias necesarios.
+````
+npm i
+````
+Una vez realizado esto, de cara a desplegar el prototipo, ejecutaremos el siguiente comando para poder acceder a el a través del navegador.
+
+````
+npm run start
+````
+
+Finalmente nuestro proyecto estará disponible en en enlace http://localhost:3000/pelicula
+
